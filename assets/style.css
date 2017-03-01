@@ -1,0 +1,71 @@
+/* CUSTOM NODE-HUE CSS */
+
+.light-box {
+    border-radius: 2px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+.pleaseWait {
+	text-align: center;
+}
+
+.bulb {
+	max-height: 40px;
+}
+
+.light-box > h5 {
+	font-weight: 400;
+}
+
+.light-box-col {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.allLights {
+	padding: 10px;
+}
+
+.no-paddding {
+	padding: 0px !important;
+}
+.no-margin {
+	margin: 0px !important;
+}
+
+/* CHANGING ANIMATION START */
+
+.changing {
+  -webkit-animation: pulse 0.8s ease-in-out infinite alternate;
+  animation: pulse 0.8s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+	border: 0.2px solid lightgray;
+    background: transparent;
+  }
+  50% {
+    background: orange;
+  }
+  100% {
+    border: 0.2px solid lightgray;
+    background: transparent;
+  }
+}
+@keyframes pulse {
+  0% {
+	border: 0.2px solid lightgray;
+    background: transparent;
+  }
+  50% {
+    background: orange;
+  }
+  100% {
+	border: 0.2px solid lightgray;
+    background: transparent;
+  }
+}
+
+/* CHANGING ANIMATION END */

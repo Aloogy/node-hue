@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>NodeJS Hue!</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/style.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<div class="col-md-12">
+			
+			<h3>Home Hue Lights</h3>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<button data-toggle="off" class="toggleAll btn btn-default">Turn All Off</button> 
+					<button data-toggle="on" class="toggleAll btn btn-primary">Turn All On</button>
+				</div>
+			</div>
+					
+			<div class="row allLights">	
+				<h4 class="pleaseWait">Please Wait...</h4>
+				<h6 class="text-hint pleaseWait">Connecting to server to get lights...</h6>	
+			</div>
+		
+		</div>
+						
+		<script src="//code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<script src="socket.io/socket.io.js" type="text/javascript"></script>
+		<script src="app/app.js" type="text/javascript"></script>
+	</body>
+</html>

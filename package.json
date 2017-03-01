@@ -1,0 +1,14 @@
+{
+  "name": "node-hue",
+  "version": "1.0.0",
+  "description": "Node/Angular example for Phillips Hue.",
+  "main": "server.js",
+  "author": "Alex Cottenham",
+  "dependencies": {
+    "express": "^4.14.0",
+    "google-cloud": "^0.45.1",
+    "http": "0.0.0",
+    "requestify": "^0.2.5",
+    "socket.io": "^1.7.2"
+  }
+}
